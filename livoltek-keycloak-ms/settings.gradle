@@ -1,4 +1,0 @@
-rootProject.name = 'livoltek-keycloak-ms'
-
-include 'core'
-include 'application'
