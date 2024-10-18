@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    livoltek:
+      url: jdbc:postgresql://postgres:5432/postgres?currentSchema=user
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://keycloak:8090/realms/livoltek
+
+management:
+  info.env.enabled: true
+  endpoints.web.exposure.include: '*'
+
+jwt:
+  auth:
+    converter:
+      resource-id: livoltek
+      principal-attribute: preferred_username
+
+keycloak:
+  grant_type: client_credentials
+  client_id: livoltek
+  client_secret: InvMDvvn3uEViJjX0zapd4H0YbxRgJYY
+  url-token-client-secret: http://keycloak:8090/realms/livoltek/protocol/openid-connect/token
+  url-end-point-users: http://keycloak:8090/admin/realms/livoltek/users
+  url-endpoint-add-user-role: http://keycloak:8090/admin/realms/livoltek/users/usuarioIdKeycloak/role-mappings/realm
+  defaultPassword: Mudar@123

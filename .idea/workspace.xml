@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="823f7474-1af6-4544-a4f5-404af895b317" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/liquibase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/LivoltekApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/configuration/LivoltekDataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/configuration/UseCaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/configuration/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/converter/JwtConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/filter/ExpressionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/infrastructure/service/HttpServiceDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/infrastructure/service/exception/handler/RestTemplateResponseErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/interceptor/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/properties/InfoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/properties/JwtConverterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/properties/KeycloakPropertiesDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/resources/ApplicationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/resources/KeycloakResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/resources/exception/ExceptionHandlerControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/java/br/com/livoltek/application/resources/exception/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/application/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/dto/Pagina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/repository/Repositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/service/HttpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/common/usecase/expression/GerarPredicadoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/AuthTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/AuthTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/CreateUserKeycloakRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/CreateUserKeycloakResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/CredencialUserKeycloak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/usecase/CreateUserKeycloak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/keycloak/usecase/GetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/properties/KeycloakLoggedUserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/properties/KeycloakProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/api/rabbit/dto/CreateUserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/amqp/AMQPConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/dto/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/dto/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/exception/GenericException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/exception/NaoAutorizadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/exception/NaoImplementadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/exception/RecursoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarExpressionDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoBooleanDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoDateDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoDateTimeDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoDecimalDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoFloatDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoIntegerDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoLongDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/usecase/expression/GerarPredicadoStringDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/keycloak/usecase/CreateUserKeycloakDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/keycloak/usecase/GetTokenDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-keycloak-ms/core/src/main/java/br/com/livoltek/core/internal/rabbit/usecase/KeycloakUserListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/application/src/main/java/br/com/livoltek/application/infrastructure/repository/livoltek/DefaultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/application/src/main/java/br/com/livoltek/application/repository/DefaultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/application/src/main/java/br/com/livoltek/application/repository/user/UserDefaultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/api/rabbit/dto/CreateUserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/api/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/api/user/usecase/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/api/user/usecase/UserEntityToResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/internal/common/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/internal/user/expression/UserExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/internal/user/usecase/CreateUserDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/core/src/main/java/br/com/livoltek/core/internal/user/usecase/UserEntityToResponseDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livoltek-user-ms/docker-compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2nUeVnOy9D7IoAmEc6tTVBqM7Oa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/livoltek-backend/livoltek-user-ms",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="823f7474-1af6-4544-a4f5-404af895b317" name="Changes" comment="" />
+      <created>1729032108125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729032108125</updated>
+      <workItem from="1729032109869" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+subprojects {
+    group = 'br.com.livoltek'
+    version = '0.0.1'
+
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    compileJava.options.encoding = "UTF-8"
+    compileTestJava.options.encoding = "UTF-8"
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+ext {
+    date = new Date().format('dd/MM/yyyy HH:mm')
+}

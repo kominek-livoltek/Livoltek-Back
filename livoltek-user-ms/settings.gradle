@@ -1,0 +1,4 @@
+rootProject.name = 'livoltek-user-ms'
+
+include 'core'
+include 'application'
